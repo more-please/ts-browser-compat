@@ -5,7 +5,7 @@
   "repository": "github:journeyapps/ts-browser-compat",
   "main": "dist/index.js",
   "bin": {
-    "ts-browser-compat": "./dist/bin.js"
+    "ts-browser-compat": "dist/bin.js"
   },
   "scripts": {
     "sample": "ts-node src/bin.ts",
