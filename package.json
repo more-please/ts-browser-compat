@@ -13,7 +13,8 @@
     "pretty:check": "prettier --check **/*.ts **/*.json **/*.js",
     "test": "jest --config tests/jest.config.ts",
     "build": "tsc -b && tsc -b tests/tsconfig.json",
-    "clean": "tsc -b --clean && tsc -b --clean tests/tsconfig.json"
+    "clean": "tsc -b --clean && tsc -b --clean tests/tsconfig.json",
+    "prepare": "tsc -b"
   },
   "keywords": [],
   "author": "Journey Mobile, Inc.",
